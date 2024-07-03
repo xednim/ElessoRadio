@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: violet;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(67, 10, 67);
+}
+header nav {
+  width: 80%;
+  height: 80px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+header nav ul li a {
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  background-color: rgb(146, 85, 152);
+  color: rgb(37, 4, 47);
+  border-radius: 20%;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 20px;
+  color: white;
+}
+main p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+footer {
+  background-color: rgb(67, 10, 67);
+}
+footer h3 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+footer h3:hover {
+  color: yellowgreen;
+}
+footer p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 40px;
+  color: wheat;
+}/*# sourceMappingURL=estilo.css.map */
